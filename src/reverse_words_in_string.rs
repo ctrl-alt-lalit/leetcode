@@ -8,6 +8,7 @@ pub fn reverse_words(s: String) -> String {
 
     // Steps below could be done all at once for efficiency, (e.g. have small buffer and rotate words chunks individually)
     // but that's a lot of index-fiddling I don't want to do.
+    return String::new();
 }
 
 pub fn reverse_words_trivial(s: String) -> String {

@@ -32,7 +32,7 @@ pub fn product_except_self2(nums: Vec<i32>) -> Vec<i32> {
     println!("{:?}", v);
 
     let mut suffix_acc = 1;
-    for (mut x, num) in v.iter_mut().zip(nums.iter()).rev() {
+    for (x, num) in v.iter_mut().zip(nums.iter()).rev() {
         *x *= suffix_acc;
         suffix_acc *= num
     }
@@ -50,13 +50,13 @@ pub fn product_except_self3(nums: Vec<i32>) -> Vec<i32> {
         .map(|x| x.clone())
         .collect::<Vec<i32>>();
     let mut prev_val = 1;
-    for mut x in v.iter_mut() {
+    for x in v.iter_mut() {
         *x *= prev_val;
         prev_val = x.clone()
     }
 
     let mut suffix_acc = 1;
-    for (mut x, num) in v.iter_mut().zip(nums.iter()).rev() {
+    for (x, num) in v.iter_mut().zip(nums.iter()).rev() {
         *x *= suffix_acc;
         suffix_acc *= num
     }

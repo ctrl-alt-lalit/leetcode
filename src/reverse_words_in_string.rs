@@ -1,4 +1,4 @@
-pub fn reverse_words(s: String) -> String {
+pub fn reverse_words(_s: String) -> String {
     //Challenge: do this in-place
 
     // Would likely want to use C++ for this.

@@ -6,7 +6,7 @@ pub fn predict_party_victory(senate: String) -> String {
     let mut rq: VecDeque<i32> = VecDeque::new();
 
     for (c, i) in senate.chars().zip(0..) {
-        if (c == 'D') {
+        if c == 'D' {
             dq.push_back(i);
         } else {
             rq.push_back(i);

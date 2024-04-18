@@ -1,4 +1,4 @@
-use std::cmp::{max, min};
+use std::cmp::max;
 
 type Vv<T> = Vec<Vec<T>>;
 
@@ -31,7 +31,7 @@ fn combo_internal(k: i32, n: i32, memo: &mut Vv<Option<Vv<i32>>>) -> Vv<i32> {
 
     for x in min_x..=(n - 1) {
         let y = n - x;
-        let mut tmp = combo_internal(k - 1, x, memo);
+        let tmp = combo_internal(k - 1, x, memo);
 
         for mut v in tmp.into_iter() {
             match v.binary_search(&y) {

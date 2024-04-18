@@ -1,5 +1,4 @@
 pub fn is_subsequence(s: String, t: String) -> bool {
-    let mut res = false;
     let mut s_it = s.chars().peekable();
     for c in t.chars() {
         if let Some(s_c) = s_it.peek() {

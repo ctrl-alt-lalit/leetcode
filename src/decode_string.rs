@@ -19,14 +19,14 @@ fn decode(s: &str) -> (String, usize) {
 
         if curr_ch == ']' {
             depth -= 1;
-            if (depth < 0) {
+            if depth < 0 {
                 break;
             } else {
                 continue;
             }
         }
 
-        let lb_idx = iter.find(|(i, c)| *c == '[').unwrap().0;
+        let lb_idx = iter.find(|(_, c)| *c == '[').unwrap().0;
         let k = s.get(curr_idx..lb_idx).unwrap().parse::<i32>().unwrap();
         depth += 1;
 

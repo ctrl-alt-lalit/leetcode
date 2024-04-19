@@ -20,6 +20,7 @@ mod recent_calls;
 mod reverse_words_in_string;
 mod string_compression;
 mod ugly_number;
+mod ugly_number2;
 
 fn main() {
     println!("Hello, world!");

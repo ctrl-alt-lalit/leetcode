@@ -19,6 +19,7 @@ mod product_of_array;
 mod recent_calls;
 mod reverse_words_in_string;
 mod string_compression;
+mod ugly_number;
 
 fn main() {
     println!("Hello, world!");

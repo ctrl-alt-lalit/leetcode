@@ -15,6 +15,7 @@ mod island_perimiter;
 mod kids_with_greatest_candies;
 mod letter_combinations;
 mod max_ksum_pairs;
+mod number_of_islands;
 mod product_of_array;
 mod recent_calls;
 mod reverse_words_in_string;

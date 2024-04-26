@@ -22,6 +22,7 @@ mod reverse_words_in_string;
 mod string_compression;
 mod ugly_number;
 mod ugly_number2;
+mod max_avg_subarray;
 
 fn main() {
     println!("Hello, world!");

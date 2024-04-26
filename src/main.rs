@@ -23,6 +23,7 @@ mod string_compression;
 mod ugly_number;
 mod ugly_number2;
 mod max_avg_subarray;
+mod max_vowels_in_substring;
 
 fn main() {
     println!("Hello, world!");

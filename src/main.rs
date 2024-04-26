@@ -27,6 +27,8 @@ mod max_vowels_in_substring;
 mod max_consecutive_ones3;
 mod longest_subarray_ones;
 mod minimum_falling_path3;
+mod highest_altitude;
+mod find_pivot_index;
 
 fn main() {
     println!("Hello, world!");

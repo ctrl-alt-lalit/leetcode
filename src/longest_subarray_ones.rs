@@ -1,4 +1,5 @@
-pub fn longest_ones(nums: Vec<i32>, k: i32) -> i32 {
+pub fn longest_subarray(nums: Vec<i32>) -> i32 {
+    let k = 1;
     let mut zeroes_used = 0;
     let mut left: usize = 0;
     let mut best: usize = 0;
@@ -12,15 +13,16 @@ pub fn longest_ones(nums: Vec<i32>, k: i32) -> i32 {
             }
             left += 1;
         }
-
-        let dist = if (left == right) && (nums[left] == 0) && (k == 0) {
-            0
-        } else {
-            right + 1 - left
-        };
-
-        best = std::cmp::max(best, dist);
+        
+        best = std::cmp::max(best, right + 1 - left);
     }
 
-    return best as i32;
+    let res = best as i32 - 1;
+    if res == nums.len() as i32 {
+        return res - 1;
+    } else if res < 0 {
+        return 0;
+    } else {
+        return res;
+    }
 }

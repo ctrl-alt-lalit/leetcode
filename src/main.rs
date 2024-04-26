@@ -26,6 +26,7 @@ mod max_avg_subarray;
 mod max_vowels_in_substring;
 mod max_consecutive_ones3;
 mod longest_subarray_ones;
+mod minimum_falling_path3;
 
 fn main() {
     println!("Hello, world!");

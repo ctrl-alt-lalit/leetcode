@@ -10,11 +10,11 @@ pub fn min_falling_path_sum(grid: Vec<Vec<i32>>) -> i32 {
 }
 
 fn calc(grid: &Vec<Vec<i32>>, i: usize, j: usize, mut memo: &mut Vec<Vec<Option<i32>>>) -> i32 {
-    if (i >= grid.len() || j >= grid.len()) {
+    if i >= grid.len() || j >= grid.len() {
         return i32::MAX;
     }
 
-    if (i == grid.len() - 1) {
+    if i == grid.len() - 1 {
         return grid[i][j];
     }
 

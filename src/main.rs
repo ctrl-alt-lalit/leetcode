@@ -31,6 +31,7 @@ mod highest_altitude;
 mod find_pivot_index;
 mod difference_two_arrays;
 mod unique_num_occurrences;
+mod strings_are_close;
 
 fn main() {
     println!("Hello, world!");

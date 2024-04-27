@@ -30,6 +30,7 @@ mod minimum_falling_path3;
 mod highest_altitude;
 mod find_pivot_index;
 mod difference_two_arrays;
+mod unique_num_occurrences;
 
 fn main() {
     println!("Hello, world!");

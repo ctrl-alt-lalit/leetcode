@@ -29,6 +29,7 @@ mod longest_subarray_ones;
 mod minimum_falling_path3;
 mod highest_altitude;
 mod find_pivot_index;
+mod difference_two_arrays;
 
 fn main() {
     println!("Hello, world!");

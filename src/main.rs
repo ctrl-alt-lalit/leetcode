@@ -35,6 +35,7 @@ mod strings_are_close;
 mod equal_row_col_pairs;
 mod delete_middle_ll;
 mod tribonacci;
+mod min_cost_climbing_stairs;
 
 fn main() {
     println!("Hello, world!");

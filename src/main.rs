@@ -39,6 +39,9 @@ mod tribonacci;
 mod min_cost_climbing_stairs;
 mod min_flips;
 mod maximize_child_happiness;
+mod removing_stars;
+mod move_zeroes;
+mod double_linked_list;
 
 fn main() {
     println!("Hello, world!");

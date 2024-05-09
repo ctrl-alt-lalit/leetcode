@@ -38,6 +38,7 @@ mod delete_middle_ll;
 mod tribonacci;
 mod min_cost_climbing_stairs;
 mod min_flips;
+mod maximize_child_happiness;
 
 fn main() {
     println!("Hello, world!");

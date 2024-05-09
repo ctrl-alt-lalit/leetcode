@@ -1,4 +1,5 @@
 #![allow(dead_code)]
+#![allow(unused_parens)]
 
 mod asteroid_collision;
 mod can_place_flowers;
@@ -36,6 +37,7 @@ mod equal_row_col_pairs;
 mod delete_middle_ll;
 mod tribonacci;
 mod min_cost_climbing_stairs;
+mod min_flips;
 
 fn main() {
     println!("Hello, world!");

@@ -25,6 +25,5 @@ pub fn equal_pairs(grid: Vec<Vec<i32>>) -> i32 {
         res += row_count * col_count;
     }
 
-
     return res;
 }

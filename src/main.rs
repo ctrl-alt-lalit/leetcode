@@ -7,6 +7,7 @@ mod can_place_flowers;
 mod combination_sum3;
 mod container_most_water;
 mod decode_string;
+mod decode_ways;
 mod delete_middle_ll;
 mod difference_two_arrays;
 mod dota2_senate;

@@ -35,6 +35,7 @@ mod move_zeroes;
 mod number_of_islands;
 mod product_of_array;
 mod recent_calls;
+mod relative_ranks;
 mod removing_stars;
 mod reverse_words_in_string;
 mod string_compression;

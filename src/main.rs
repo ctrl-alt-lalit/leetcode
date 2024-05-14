@@ -35,6 +35,7 @@ mod min_flips;
 mod minimum_falling_path3;
 mod move_zeroes;
 mod number_of_islands;
+mod path_with_max_gold;
 mod product_of_array;
 mod recent_calls;
 mod relative_ranks;

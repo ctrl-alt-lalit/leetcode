@@ -19,6 +19,7 @@ mod house_robber;
 mod house_robber2;
 mod house_robber3;
 mod increasing_triplet;
+mod invalid_transactions;
 mod is_subsequence;
 mod island_perimiter;
 mod kids_with_greatest_candies;

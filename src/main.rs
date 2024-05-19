@@ -11,6 +11,7 @@ mod decode_ways;
 mod delete_leaves_with_val;
 mod delete_middle_ll;
 mod difference_two_arrays;
+mod distrubute_coins;
 mod dota2_senate;
 mod double_linked_list;
 mod equal_row_col_pairs;

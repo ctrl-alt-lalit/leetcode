@@ -42,6 +42,7 @@ mod recent_calls;
 mod relative_ranks;
 mod removing_stars;
 mod reverse_words_in_string;
+mod safest_path_in_grid;
 mod string_compression;
 mod strings_are_close;
 mod tribonacci;

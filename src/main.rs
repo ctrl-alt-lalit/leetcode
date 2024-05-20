@@ -47,6 +47,7 @@ mod number_of_islands;
 mod number_of_laser_beams;
 mod path_with_max_gold;
 mod product_of_array;
+mod randomized_set;
 mod recent_calls;
 mod relative_ranks;
 mod removing_stars;

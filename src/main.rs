@@ -55,6 +55,7 @@ mod reverse_words_in_string;
 mod safest_path_in_grid;
 mod string_compression;
 mod strings_are_close;
+mod subset_xor_sum;
 mod tribonacci;
 mod ugly_number;
 mod ugly_number2;

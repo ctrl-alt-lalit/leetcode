@@ -29,6 +29,7 @@ mod kids_with_greatest_candies;
 mod largest_local;
 mod letter_combinations;
 mod longest_subarray_ones;
+mod matrix_score;
 mod max_avg_subarray;
 mod max_consecutive_ones3;
 mod max_ksum_pairs;

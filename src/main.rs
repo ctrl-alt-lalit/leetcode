@@ -43,6 +43,7 @@ mod minimum_rope_colorful;
 mod move_zeroes;
 mod num_rolls_to_target;
 mod number_of_islands;
+mod number_of_laser_beams;
 mod path_with_max_gold;
 mod product_of_array;
 mod recent_calls;

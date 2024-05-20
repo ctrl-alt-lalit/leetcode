@@ -38,6 +38,7 @@ mod maximize_child_happiness;
 mod min_cost_climbing_stairs;
 mod min_flips;
 mod minimum_falling_path3;
+mod minimum_rope_colorful;
 mod move_zeroes;
 mod num_rolls_to_target;
 mod number_of_islands;

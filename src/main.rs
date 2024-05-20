@@ -6,6 +6,7 @@ mod boats_to_save_people;
 mod can_place_flowers;
 mod combination_sum3;
 mod container_most_water;
+mod convert_array_to_2d;
 mod decode_string;
 mod decode_ways;
 mod delete_leaves_with_val;

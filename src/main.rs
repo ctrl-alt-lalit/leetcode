@@ -63,6 +63,7 @@ mod tribonacci;
 mod ugly_number;
 mod ugly_number2;
 mod unique_num_occurrences;
+mod word_break2;
 
 fn main() {
     println!("Hello, world!");

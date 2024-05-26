@@ -2,6 +2,7 @@
 #![allow(unused_parens)]
 
 mod asteroid_collision;
+mod attendance_2;
 mod boats_to_save_people;
 mod can_place_flowers;
 mod combination_sum3;

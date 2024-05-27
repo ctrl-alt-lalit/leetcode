@@ -1,10 +1,7 @@
 pub fn check_record(n: i32) -> i32 {
-    let mut v: Vec<State> = Vec::with_capacity(n as usize + 1);
-    v.push(State::new(0, 0, 0, 0, 0, 0)); // 0th, never read
-    v.push(State::new(1, 1, 0, 1, 0, 0)); // 1st, base case
+    let mut prev = State::new(1, 1, 0, 1, 0, 0);
 
-    for i in 2..=(n as usize) {
-        let prev = &v[i - 1];
+    for _ in 2..=(n as usize) {
         let mut curr = State::new(0, 0, 0, 0, 0, 0);
 
         // Option 1: Prepend an absence
@@ -20,10 +17,10 @@ pub fn check_record(n: i32) -> i32 {
         curr.no_late_no_abs = mod_add2(curr.no_late_no_abs, prev.no_abs());
         curr.no_late_one_abs = mod_add2(curr.no_late_one_abs, prev.one_abs());
 
-        v.push(curr)
+        prev = curr;
     }
 
-    return v[n as usize].sum();
+    return prev.sum();
 }
 
 #[derive(Clone, Debug)]

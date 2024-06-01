@@ -51,6 +51,7 @@ mod num_rolls_to_target;
 mod num_steps_reduce;
 mod number_of_islands;
 mod number_of_laser_beams;
+mod palindrome_partition;
 mod path_with_max_gold;
 mod product_of_array;
 mod randomized_set;

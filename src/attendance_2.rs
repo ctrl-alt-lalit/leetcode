@@ -1,7 +1,7 @@
 pub fn check_record(n: i32) -> i32 {
     let mut prev = State::new(1, 1, 0, 1, 0, 0);
 
-    for _ in 2..=(n as usize) {
+    for _ in 2..=n {
         let mut curr = State::new(0, 0, 0, 0, 0, 0);
 
         // Option 1: Prepend an absence

@@ -16,6 +16,7 @@ mod difference_two_arrays;
 mod distrubute_coins;
 mod dota2_senate;
 mod double_linked_list;
+mod equal_budget_substrings;
 mod equal_row_col_pairs;
 mod evaluate_boolean_tree;
 mod find_pivot_index;

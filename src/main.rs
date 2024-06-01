@@ -59,6 +59,7 @@ mod relative_ranks;
 mod removing_stars;
 mod reverse_words_in_string;
 mod safest_path_in_grid;
+mod score_of_string;
 mod single_number3;
 mod special_array;
 mod string_compression;

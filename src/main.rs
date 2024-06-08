@@ -1,6 +1,7 @@
 #![allow(dead_code)]
 #![allow(unused_parens)]
 
+mod append_characters;
 mod asteroid_collision;
 mod attendance_2;
 mod boats_to_save_people;

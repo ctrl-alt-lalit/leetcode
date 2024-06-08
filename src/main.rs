@@ -35,6 +35,7 @@ mod kids_with_greatest_candies;
 mod kth_smallest_fraction;
 mod largest_local;
 mod letter_combinations;
+mod longest_palindrome;
 mod longest_subarray_ones;
 mod matrix_score;
 mod max_avg_subarray;

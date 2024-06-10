@@ -63,6 +63,7 @@ mod randomized_set;
 mod recent_calls;
 mod relative_ranks;
 mod removing_stars;
+mod replace_words;
 mod reverse_string;
 mod reverse_words_in_string;
 mod safest_path_in_grid;

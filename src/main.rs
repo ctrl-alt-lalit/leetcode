@@ -72,6 +72,7 @@ mod single_number3;
 mod special_array;
 mod string_compression;
 mod strings_are_close;
+mod subarray_sum;
 mod subset_xor_sum;
 mod subsets;
 mod tribonacci;

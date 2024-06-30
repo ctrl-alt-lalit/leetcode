@@ -49,6 +49,7 @@ mod maximize_child_happiness;
 mod min_anagram_steps;
 mod min_cost_climbing_stairs;
 mod min_flips;
+mod min_moves_to_seat;
 mod min_operations_empty_array;
 mod minimum_falling_path3;
 mod minimum_rope_colorful;

@@ -25,6 +25,7 @@ mod evaluate_boolean_tree;
 mod find_pivot_index;
 mod find_zero_one_losses;
 mod hand_of_straights;
+mod height_checkers;
 mod highest_altitude;
 mod house_robber;
 mod house_robber2;

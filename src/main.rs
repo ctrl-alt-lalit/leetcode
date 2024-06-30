@@ -75,6 +75,7 @@ mod special_array;
 mod string_compression;
 mod strings_are_close;
 mod subarray_sum;
+mod subarrays_div_k;
 mod subset_xor_sum;
 mod subsets;
 mod tribonacci;

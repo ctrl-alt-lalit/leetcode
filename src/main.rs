@@ -69,6 +69,7 @@ mod reverse_words_in_string;
 mod safest_path_in_grid;
 mod score_of_string;
 mod single_number3;
+mod sort_colors;
 mod special_array;
 mod string_compression;
 mod strings_are_close;

@@ -80,6 +80,8 @@ mod subarray_sum;
 mod subarrays_div_k;
 mod subset_xor_sum;
 mod subsets;
+mod sum_square;
+mod three_odds;
 mod tribonacci;
 mod ugly_number;
 mod ugly_number2;

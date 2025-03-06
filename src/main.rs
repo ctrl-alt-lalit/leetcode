@@ -6,6 +6,7 @@ mod asteroid_collision;
 mod attendance_2;
 mod boats_to_save_people;
 mod can_place_flowers;
+mod check_pow_three;
 mod combination_sum3;
 mod common_chars;
 mod container_most_water;

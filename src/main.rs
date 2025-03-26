@@ -58,6 +58,7 @@ mod min_flips;
 mod min_inc_unique;
 mod min_moves_to_seat;
 mod min_operations_empty_array;
+mod min_ops_uni_value_grid;
 mod min_recolors_black_blocks;
 mod minimum_falling_path3;
 mod minimum_rope_colorful;

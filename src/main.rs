@@ -14,6 +14,7 @@ mod common_chars;
 mod container_most_water;
 mod convert_array_to_2d;
 mod count_colored_cells;
+mod count_days_without_meetings;
 mod count_triplets_xor;
 mod decode_string;
 mod decode_ways;

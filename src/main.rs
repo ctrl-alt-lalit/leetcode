@@ -52,6 +52,7 @@ mod max_consecutive_ones3;
 mod max_ksum_pairs;
 mod max_vowels_in_substring;
 mod maximize_child_happiness;
+mod merge_intervals;
 mod merge_two_2d_arrays;
 mod min_anagram_steps;
 mod min_cost_climbing_stairs;

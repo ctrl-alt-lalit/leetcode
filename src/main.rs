@@ -40,6 +40,7 @@ mod increasing_triplet;
 mod invalid_transactions;
 mod is_subsequence;
 mod island_perimiter;
+mod jump_game_2;
 mod kids_with_greatest_candies;
 mod kth_smallest_fraction;
 mod largest_local;

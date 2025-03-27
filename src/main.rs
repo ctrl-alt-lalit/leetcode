@@ -92,6 +92,7 @@ mod subarray_sum;
 mod subarrays_div_k;
 mod subset_xor_sum;
 mod subsets;
+mod subsets_2;
 mod sum_square;
 mod three_odds;
 mod tribonacci;

@@ -73,6 +73,7 @@ mod number_of_islands;
 mod number_of_laser_beams;
 mod palindrome_partition;
 mod partition_array_to_pivot;
+mod partition_labels;
 mod path_with_max_gold;
 mod product_of_array;
 mod randomized_set;

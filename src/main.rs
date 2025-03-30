@@ -51,6 +51,7 @@ mod longest_subarray_ones;
 mod matrix_score;
 mod max_avg_subarray;
 mod max_consecutive_ones3;
+mod max_idx_valid_split;
 mod max_ksum_pairs;
 mod max_vowels_in_substring;
 mod maximize_child_happiness;

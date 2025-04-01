@@ -1,6 +1,7 @@
 #![allow(dead_code)]
 #![allow(unused_parens)]
 
+mod add_binary;
 mod append_characters;
 mod apply_operations_array;
 mod apply_ops_max_score;

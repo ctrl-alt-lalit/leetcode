@@ -3,6 +3,7 @@
 
 mod append_characters;
 mod apply_operations_array;
+mod apply_ops_max_score;
 mod asteroid_collision;
 mod attendance_2;
 mod boats_to_save_people;

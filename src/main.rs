@@ -55,6 +55,7 @@ mod max_avg_subarray;
 mod max_consecutive_ones3;
 mod max_idx_valid_split;
 mod max_ksum_pairs;
+mod max_value_ordered_triplet_1;
 mod max_vowels_in_substring;
 mod maximize_child_happiness;
 mod merge_intervals;

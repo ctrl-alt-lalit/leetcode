@@ -80,6 +80,7 @@ mod partition_array_to_pivot;
 mod partition_labels;
 mod path_with_max_gold;
 mod product_of_array;
+mod put_marbles;
 mod randomized_set;
 mod recent_calls;
 mod relative_ranks;

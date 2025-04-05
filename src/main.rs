@@ -30,6 +30,7 @@ mod double_linked_list;
 mod equal_budget_substrings;
 mod equal_row_col_pairs;
 mod evaluate_boolean_tree;
+mod find_all_recipes;
 mod find_missing_and_repeated;
 mod find_pivot_index;
 mod find_zero_one_losses;

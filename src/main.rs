@@ -9,6 +9,7 @@ mod asteroid_collision;
 mod attendance_2;
 mod boats_to_save_people;
 mod can_place_flowers;
+mod check_grid_cut_sections;
 mod check_pow_three;
 mod closest_primes_in_range;
 mod combination_sum3;

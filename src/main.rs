@@ -47,6 +47,7 @@ mod kids_with_greatest_candies;
 mod kth_smallest_bst;
 mod kth_smallest_fraction;
 mod largest_local;
+mod lca_deepest;
 mod letter_combinations;
 mod longest_palindrome;
 mod longest_subarray_ones;

@@ -48,6 +48,7 @@ mod jump_game_2;
 mod kids_with_greatest_candies;
 mod kth_smallest_bst;
 mod kth_smallest_fraction;
+mod largest_divisible_subset;
 mod largest_local;
 mod lca_deepest;
 mod letter_combinations;

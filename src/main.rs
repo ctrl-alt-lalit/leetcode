@@ -25,6 +25,7 @@ mod delete_leaves_with_val;
 mod delete_middle_ll;
 mod difference_two_arrays;
 mod distrubute_coins;
+mod divide_arr_equal_pairs;
 mod dota2_senate;
 mod double_linked_list;
 mod equal_budget_substrings;

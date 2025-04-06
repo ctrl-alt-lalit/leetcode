@@ -86,6 +86,11 @@ impl BitSet {
         }
     }
 
+    pub fn flip(&mut self, i: usize) {
+        let (word_idx, bitmask) = Self::parse_index(i);
+        self.0[word_idx] ^= bitmask
+    }
+
     fn parse_index(i: usize) -> (usize, usize) {
         (i / Self::WS, 1usize << (i % Self::WS))
     }
@@ -130,7 +135,7 @@ impl BitSet {
     }
 }
 
-struct BitSetNumIter<'a> {
+pub struct BitSetNumIter<'a> {
     data: &'a BitSet,
     index: i32,
 }
